@@ -1,0 +1,21 @@
+.modal-title{
+    font-size: 2rem;
+    padding: .3em;
+    font-weight: 600;
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.plate{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.price{
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}

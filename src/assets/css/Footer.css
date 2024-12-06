@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #ffe5c7;
+    --secondary-color: #380101;
+    --detail-color: #9496ef;
+    --base: white;
+}
+
+footer{
+    height: 50vh;
+}
+.Contenedor-Frase{
+    height: 50vh;
+    background-color: var(--secondary-color);
+}
+.Frase{
+    font-family: 'Rozha One', sans-serif;
+    font-size: 4.2em;
+    font-weight: 700;
+    text-align: left;
+    color: var(--primary-color);
+    
+}
+
+.Contenedor-Info{
+    height: 50vh;
+    background-color: var(--primary-color);
+    border: solid 1px ;
+}
+.Contactanos-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    
+    
+}
+.Contenedor-Info p{
+    color: var(--secondary-color);
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3em;
+    font-weight: 700; 
+    font-size: 1em ; 
+}
+.Contenedor-Info p span{
+    font-size: 0.98em;
+    font-weight: 400;
+}

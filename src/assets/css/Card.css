@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #ffe5c7;
+    --secondary-color: #380101;
+    --detail-color: #9496ef;
+    --base: white;
+}
+
+.card {
+    height: 28em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: var(--detail-color);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.addToCartBtn {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    width: 50%;
+    height: 2.5em;
+    transition: all 0.3s ease;
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1em auto;
+}
+
+.addToCartBtn:hover {
+    background-color: var(--detail-color) !important;
+    border-color: var(--detail-color) !important;
+    transform: scale(1.05);
+}
+

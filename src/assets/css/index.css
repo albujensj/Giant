@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--detail-color) !important;
+    border-color: var(--detail-color) !important;
+} 
